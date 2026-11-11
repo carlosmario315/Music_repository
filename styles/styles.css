@@ -5,14 +5,165 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background:#f2f2f2;
-    color:#333;
-    line-height:1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
-img{
-    max-width:100%;
-    display:block;
+.hero {
+  background-image: url("../assets/images/angel.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 650px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.hero h1 {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 8rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.Titulo {
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.part3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 100px 0;
+}
+
+.part2,
+.part3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 100px 0;
+}
+
+.contenido {
+  width: 35%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.part3 .image-card {
+  width: 35%;
+}
+.part2 .image-card {
+  width: 35%;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.pink {
+  color: #ff4f6d;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.btn {
+  background-color: #ff4f6d;
+  color: white;
+  padding: 14px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 450px;
+  margin-left: 0;
+}
+
+.content h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+.banner {
+  background-image: url("../assets/images/raptis.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding-right: 150px;
+  color: rgb(255, 249, 249);
+}
+
+.banner-content {
+  width: 400px;
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+.banner-content p {
+  color: white;
+}
+
+footer {
+  background: #ff4f6d;
+  color: white;
+  padding: 60px;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-grid ul {
+  list-style: none;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid white;
+  padding-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.content p {
+  width: 100%;
+  line-height: 1.8;
+  color: #666;
+}
